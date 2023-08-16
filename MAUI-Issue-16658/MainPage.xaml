@@ -3,17 +3,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_Issue_16658.MainPage">
 
-    <Grid Padding="20" BackgroundColor="AliceBlue">
+    <!--Issue 1-->
+    <!--<Grid Padding="20" Margin="20" BackgroundColor="Blue">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="auto" />
         </Grid.ColumnDefinitions>
         <Label Grid.Column="0" Text="We've moved this issue to the Backlog milestone. This means that it is not going to be worked on for the coming release. We will reassess the backlog following the current release and consider this item at that time. To learn more about our issue management process and to have better expectation regarding different types of issues you can read our" />
-    </Grid>
+    </Grid>-->
 
-    <HorizontalStackLayout Padding="20" BackgroundColor="AliceBlue">
+    <!--Issue 2-->
+    <HorizontalStackLayout Padding="20" Margin="20" BackgroundColor="Blue">
         <Label Text="We've moved this issue to the Backlog milestone. This means that it is not going to be worked on for the coming release. We will reassess the backlog following the current release and consider this item at that time. To learn more about our issue management process and to have better expectation regarding different types of issues you can read our" />
     </HorizontalStackLayout >
 
+    
+    
+    
+    
+    
     <!--<ScrollView>
         <VerticalStackLayout
             Spacing="25"
